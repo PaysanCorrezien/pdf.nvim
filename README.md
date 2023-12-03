@@ -6,7 +6,8 @@ A Simple tool to convert pdf pages on images quickly on markdown document.
 
 ## Prerequisites
 
-- NeoVim (0.( or later)
+- NeoVim (0.9 or later)
+- plenary.nvim
 - `pdftoppm` command-line utility that is included in `poppler` software [Poppler](https://poppler.freedesktop.org/)
 
 ## Installation
