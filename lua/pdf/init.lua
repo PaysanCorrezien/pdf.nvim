@@ -5,7 +5,6 @@ local Job = require'plenary.job'
 local M = {}
 local home = os.getenv("HOME") or "~"
 -- Define the paths directly using the home directory path
-vim.g.my_ltexfile_path = home .. "/.local/share/chezmoi/dot_config/lvim/dict/ltex.dictionary.fr.txt"
 
 M.config = {
 	pdf_path = home .. "/Documents/pdf/",
